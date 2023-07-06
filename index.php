@@ -32,9 +32,32 @@
 </head>
 <body>
 
+<!--===HEADER-------------------------------------------------------------------------------------------------------------->
+
+        <header>
+            <a href="#" class="header-logo"><img src="Images/Logo_3.png" alt=""></a>
+                <ul class="header-nav">
+                    <li><a href="">home</a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">renting</a></li>
+                    <li><a href="">selling</a></li>
+                    <li><a href="">buying</a></li>
+                    <li><a href="">contact us</a></li>
+                </ul>
+
+                    <div class="header-btn">
+                        <a href="#" class="header-btn-1">blog</a>
+                        <a href="#" class="header-btn-1">faqs</a>
+                        <div class="bx bx-menu" id="menu-icon"></div>
+                    </div>
+            
+        </header>
 
 
-<!--===JS---------------------------------------------------------------------------------------------------->
+
+
+
+<!--===JS-------------------------------------------------------------------------------------------------------------->
 
 <script></script>
 </body>
