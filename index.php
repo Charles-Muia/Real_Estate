@@ -47,7 +47,7 @@
 
                     <div class="header-btn">
                         <a href="#" class="header-btn-1">blog</a>
-                        <a href="#" class="header-btn-1">faqs</a>
+                        <a href="#" class="header-btn-2">faqs</a>
                         <div class="bx bx-menu" id="menu-icon"></div>
                     </div>
             

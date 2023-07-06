@@ -15,6 +15,7 @@
             --bg-color: #ffffff;
             --bg-color2: #c5c6c7;
             --bg-color3: #f5f5f5;
+            --bg-color4: #1b1b1b;
             --text-color: #000000;
             --h2-font: 3rem;
             --h1-font: 5rem;
@@ -43,9 +44,10 @@
             align-items: center;
             justify-content: space-between;
             background: var(--bg-color);
-            padding: 30px 10%;
+            padding: 30px 8%;
             transition: all .50s ease;
             text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
     }
 
     .header-logo img {
@@ -73,3 +75,28 @@
     .header-nav a:hover {
             color: var(--main-color3)
     }
+
+    .header-btn {
+            display: flex;
+            align-items: center;
+    }
+
+    .header-btn-1 {
+            color: var(--a-color);
+            font-weight: 600;
+            font-size: var(--a-font);
+            font-family: 'Poppins', sans-serif;
+    }
+
+    .header-btn-2 {
+            display: inline-block;
+            padding: 10px 20px;
+            transition: all .40s ease;
+            font-size: var(--a-font);
+            font-weight: 600;
+            margin-left: 20px;
+            background: var(--bg-color4);
+            color: var(--bg-color);
+            border-radius: 10px;
+    }
+
