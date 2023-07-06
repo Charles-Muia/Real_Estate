@@ -73,7 +73,7 @@
     }
 
     .header-nav a:hover {
-            color: var(--main-color3)
+            color: var(--main-color3);
     }
 
     .header-btn {
@@ -86,6 +86,10 @@
             font-weight: 600;
             font-size: var(--a-font);
             font-family: 'Poppins', sans-serif;
+    }
+
+    .header-btn-1:hover {
+            color: var(--main-color3);
     }
 
     .header-btn-2 {
@@ -104,6 +108,8 @@
     .header-btn-2:hover {
             background: var(--bg-color);
             color: var(--bg-color4);
+            transform: translateX(-3px);
+
     }
 
 
