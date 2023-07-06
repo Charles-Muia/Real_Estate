@@ -90,7 +90,7 @@
 
     .header-btn-2 {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 5px 15px;
             transition: all .40s ease;
             font-size: var(--a-font);
             font-weight: 600;
@@ -98,5 +98,12 @@
             background: var(--bg-color4);
             color: var(--bg-color);
             border-radius: 10px;
+            border: 2px solid gold;
     }
+
+    .header-btn-2:hover {
+            background: var(--bg-color);
+            color: var(--bg-color4);
+    }
+
 

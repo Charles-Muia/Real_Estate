@@ -39,9 +39,9 @@
                 <ul class="header-nav">
                     <li><a href="">home</a></li>
                     <li><a href="">about us</a></li>
-                    <li><a href="">renting</a></li>
-                    <li><a href="">selling</a></li>
-                    <li><a href="">buying</a></li>
+                    <li><a href="">rent</a></li>
+                    <li><a href="">sell</a></li>
+                    <li><a href="">buy</a></li>
                     <li><a href="">contact us</a></li>
                 </ul>
 
