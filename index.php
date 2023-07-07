@@ -111,6 +111,29 @@
                                         <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
                                     </div>
                     </div>
+
+                    <div class="row">
+                        <img src="Images/House_2.jpg" alt="">
+                        <h5>meru kinoru stadium</h5>
+                        <p>opposite kenya power, kinoru</p>
+                        <div class="prop-sec-list">
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bath' ></i></i>2 bathroom</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="Images/House_2.jpg" alt="">
+                        <h5>meru kinoru stadium</h5>
+                        <p>opposite kenya power, kinoru</p>
+                        <div class="prop-sec-list">
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bath' ></i></i>2 bathroom</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
+                        </div>
+                    </div>
+
                 </div>
         </section>
 
