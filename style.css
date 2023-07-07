@@ -34,7 +34,9 @@
             /*font-family: 'Work Sans', sans-serif;*/
     }
 
-    header {
+/*===HEADER SECTION CSS-----------------------------------------------------------------------------------------------*/
+
+           header {
             width: 100%;
             position: fixed;
             top: 0;
@@ -109,7 +111,18 @@
             background: var(--bg-color);
             color: var(--bg-color4);
             transform: translateX(-3px);
-
     }
+
+    #menu-icon {
+        color: var(--main-color3);
+        font-size: 45px;
+        margin-left: 5px;
+        z-index: 10001;
+        cursor: pointer;
+        display: none;
+    }
+
+/*===HERO SECTION CSS-------------------------------------------------------------------------------------------------*/
+
 
 

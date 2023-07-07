@@ -32,7 +32,7 @@
 </head>
 <body>
 
-<!--===HEADER-------------------------------------------------------------------------------------------------------------->
+<!--===HEADER SECTION-------------------------------------------------------------------------------------------------->
 
         <header>
             <a href="#" class="header-logo"><img src="Images/Logo_3.png" alt=""></a>
@@ -50,11 +50,25 @@
                         <a href="#" class="header-btn-2">faqs</a>
                         <div class="bx bx-menu" id="menu-icon"></div>
                     </div>
-            
         </header>
 
+<!--===HERO SECTION---------------------------------------------------------------------------------------------------->
 
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>we all need a place called home</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate iste laborum molestiae sed suscipit voluptate?</p>
+                        <div class="hero-search">
+                            <form action="">
+                                <input type="search" placeholder="search here .... " class="search-input">
+                                <input type="submit" value="search">
+                            </form>
+                        </div>
+            </div>
 
+            <div class="hero-img"><img src="Images/" alt=""></div>
+
+        </section>
 
 
 <!--===JS-------------------------------------------------------------------------------------------------------------->
