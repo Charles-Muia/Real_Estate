@@ -124,5 +124,100 @@
 
 /*===HERO SECTION CSS-------------------------------------------------------------------------------------------------*/
 
+    section {
+        padding: 80px 10% 70px;
+        margin-top: 10%;
+    }
+
+    .hero-section {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .hero-text h1 {
+        /*font-size: var(--h1-font);*/
+        font-size: 40px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    .hero-text p {
+        font-size: var(--p-font);
+        color: var(--bg-color4);
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+
+    .hero-search form {
+        position: relative;
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .hero-search form input:first-child {
+        display: inline-block;
+        width: 100%;
+        padding: 20px 130px 15px 15px;
+        border-radius: 70rem ;
+        text-transform: capitalize;
+    }
+
+    .hero-search form input:last-child {
+        position: absolute;
+        display: inline-block;
+        padding: 10px 30px;
+        background: var(--main-color3);
+        color: var(--bg-color);
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 70rem;
+        box-shadow: 0px 0px 5px #ffffff,0px 0px 15px #868686;
+        top: 6px;
+        right: 6px;
+        text-transform: uppercase;
+    }
+
+    .hero-search form input:last-child:hover {
+        background: var(--main-color);
+        color: var(--bg-color4);
+    }
+
+    .hero-img img {
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*object-fit: contain;*/
+    }
+
+    header.sticky {
+        padding: 8px 10%;
+    }
+
+/*===FEATURE SECTION CSS----------------------------------------------------------------------------------------------*/
+
+    .feat-sec {
+        padding: 60px 15% 50px;
+    }
+
+    .feat-sec-left h2 {
+        font-size: var(--h2-font);
+        text-transform: capitalize;
+    }
+
+    .feat-sec-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
 
 

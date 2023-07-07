@@ -37,12 +37,12 @@
         <header>
             <a href="#" class="header-logo"><img src="Images/Logo_3.png" alt=""></a>
                 <ul class="header-nav">
-                    <li><a href="">home</a></li>
-                    <li><a href="">about us</a></li>
-                    <li><a href="">rent</a></li>
-                    <li><a href="">sell</a></li>
-                    <li><a href="">buy</a></li>
-                    <li><a href="">contact us</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">buy</a></li>
+                    <li><a href="#">sell</a></li>
+                    <li><a href="#">rent</a></li>
+                    <li><a href="#">contact us</a></li>
                 </ul>
 
                     <div class="header-btn">
@@ -55,24 +55,52 @@
 <!--===HERO SECTION---------------------------------------------------------------------------------------------------->
 
         <section class="hero-section">
-            <div class="hero-text">
-                <h1>we all need a place called home</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate iste laborum molestiae sed suscipit voluptate?</p>
-                        <div class="hero-search">
-                            <form action="">
-                                <input type="search" placeholder="search here .... " class="search-input">
-                                <input type="submit" value="search">
-                            </form>
-                        </div>
-            </div>
+                <div class="hero-text">
+                    <h1>we all need a place to call home, east or west.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate iste laborum molestiae?</p>
 
-            <div class="hero-img"><img src="Images/" alt=""></div>
+                            <div class="hero-search">
+                                <form action="">
+                                    <input type="search" placeholder=" search here .... " class="search-input">
+                                    <input type="submit" value="search">
+                                </form>
+                            </div>
+                </div>
 
+            <div class="hero-img"><img src="Images/House_1.jpg" alt=""></div>
         </section>
 
+<!--===FEATURE SECTION------------------------------------------------------------------------------------------------->
 
-<!--===JS-------------------------------------------------------------------------------------------------------------->
+        <section class="feat-sec">
+            <div class="feat-sec-left">
+                <h2>feature</h2></div>
+                    <div class="feat-sec-content">
+                        <div class="feat-sec-img">
+                            <img src="Images/Agency.png" alt="">
+                        </div>
+                        <div class="feat-sec-img">
+                            <img src="Images/Agency.png" alt="">
+                        </div>
+                        <div class="feat-sec-img">
+                            <img src="Images/Agency.png" alt="">
+                        </div>
+                        <div class="feat-sec-img">
+                            <img src="Images/Agency.png" alt="">
+                        </div>
+                        <div class="feat-sec-img">
+                            <img src="Images/Agency.png" alt="">
+                        </div>
+                    </div>
+        </section>
 
-<script></script>
+<!--===JS(FEATURE-SECTION)--------------------------------------------------------------------------------------------->
+
+        <script type="text/javascript">
+            const header = document.querySelector("header");
+            window.addEventListener("scroll", function (){
+                header.classList.toggle("sticky", window.scrollY > 80)
+            });
+        </script>
 </body>
 </html>
