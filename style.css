@@ -137,6 +137,7 @@
         grid-template-columns: repeat(2 ,1fr);
         align-items: center;
         gap: 5rem;
+        margin-top: 15%;
     }
 
     .hero-text h1 {
@@ -204,6 +205,9 @@
 
     .feat-sec {
         padding: 60px 15% 50px;
+        background: var(--bg-color);
+        /*margin-top: 5%;*/
+        margin-bottom: 10%;
     }
 
     .feat-sec-left h2 {
@@ -215,6 +219,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .feat-sec-img img {
+        width: 170px;
+        margin-bottom: 30%;
     }
 
 
