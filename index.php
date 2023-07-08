@@ -133,7 +133,6 @@
                             <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
                         </div>
                     </div>
-
                 </div>
         </section>
 
