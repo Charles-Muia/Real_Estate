@@ -266,8 +266,54 @@
         font-weight: 600;
         margin-bottom: 10px;
         text-transform: capitalize;
+        font-family: sans-serif;
+
     }
 
+    .row p {
+        font-size: var(--p-font);
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+    }
+
+    .prop-sec-list {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .prop-sec-list a {
+        /*font-size: var(--p-font);*/
+        /*font-size: 15px;*/
+        list-style: none;
+        color: var(--main-color4);
+        text-transform: capitalize;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .prop-list i {
+        font-size: 20px;
+        color: var(--main-color3);
+    }
+
+    .middle-btn {
+        text-align: center;
+        margin-top: 5rem;
+        text-transform: uppercase;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 20px 30px;
+        background: var(--bg-color4);
+        color: var(--bg-color);
+        font-size: var(--a-font);
+        font-weight: 600;
+        transition: all .50s ease;
+        border: 2px solid gold;
+    }
 
 
 

@@ -106,9 +106,9 @@
                             <h5>meru kinoru stadium</h5>
                                 <p>opposite kenya power, kinoru</p>
                                     <div class="prop-sec-list">
-                                        <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
-                                        <a href="#" class="prop-list"><i class='bx bxs-bath' ></i></i>2 bathroom</a>
-                                        <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
+                                        <a href="#" class="prop-list"><i class='bx bxs-bed'></i> 3 bed</a>
+                                        <a href="#" class="prop-list"><i class='bx bxs-bath' ></i> 2 bath</a>
+                                        <a href="#" class="prop-list"><i class='bx bxs-bed'></i> 3 sqft</a>
                                     </div>
                     </div>
 
@@ -117,9 +117,9 @@
                         <h5>meru kinoru stadium</h5>
                         <p>opposite kenya power, kinoru</p>
                         <div class="prop-sec-list">
-                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
-                            <a href="#" class="prop-list"><i class='bx bxs-bath' ></i></i>2 bathroom</a>
-                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i> 3 bed</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bath' ></i> 2 bath</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i> 3 bed</a>
                         </div>
                     </div>
 
@@ -128,9 +128,9 @@
                         <h5>meru kinoru stadium</h5>
                         <p>opposite kenya power, kinoru</p>
                         <div class="prop-sec-list">
-                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
-                            <a href="#" class="prop-list"><i class='bx bxs-bath' ></i></i>2 bathroom</a>
-                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bedroom</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i> 3 bed</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bath'></i> 2 bath</a>
+                            <a href="#" class="prop-list"><i class='bx bxs-bed'></i>3 bed</a>
                         </div>
                     </div>
                 </div>
