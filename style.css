@@ -230,6 +230,44 @@
         margin-bottom: 30%;
     }
 
+/*===PROPERTY SECTION CSS---------------------------------------------------------------------------------------------*/
+
+    .prop-sec {
+        padding-top: 0px;
+    }
+
+    .prop-sec h2 {
+        margin-left: 65px;
+        font-size: var(--h2-font);
+        text-transform: capitalize;
+    }
+
+    .prop-sec-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+        align-items: center;
+        gap: 2rem;
+        margin-top: 4.5rem;
+    }
+
+    .row {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .row img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .row h5 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
 
 
 

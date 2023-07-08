@@ -134,6 +134,9 @@
                         </div>
                     </div>
                 </div>
+                        <div class="middle-btn">
+                            <a href="#" class="btn">view all properties</a>
+                        </div>
         </section>
 
 <!--===JS(FEATURE-SECTION)--------------------------------------------------------------------------------------------->
