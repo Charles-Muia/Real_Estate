@@ -314,6 +314,13 @@
         border: 2px solid gold;
     }
 
+    .btn:hover {
+        /*transform: translateY(-1px) scale(0.9);*/
+        background: var(--bg-color3);
+        color: var(--bg-color4);
+        transform: translateX(0px);
+    }
+
 
 
 
