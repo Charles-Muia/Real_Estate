@@ -312,6 +312,7 @@
         font-weight: 600;
         transition: all .50s ease;
         border: 2px solid gold;
+        margin-top: 50px;
     }
 
     .btn:hover {
@@ -320,6 +321,22 @@
         color: var(--bg-color4);
         transform: translateX(0px);
     }
+
+/*===ABOUT US SECTION CSS---------------------------------------------------------------------------------------------*/
+
+    .about-sec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 4.5rem;
+        background: var(--bg-color);
+    }
+
+    .about-sec-img img {
+        width: 100%;
+        height: auto;
+    }
+
 
 
 

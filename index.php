@@ -139,6 +139,23 @@
                         </div>
         </section>
 
+<!--===ABOUT SECTION--------------------------------------------------------------------------------------------------->
+
+        <section class="about-sec">
+            <div class="about-sec-img">
+                <img src="Images/Logo_3.png" alt=""></div>
+
+                <div class="about-sec-text">
+                    <h2>we help you find a place to call home</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Animi autem beatae delectus fugit itaque laboriosam modi provident, sit veritatis voluptate!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Animi autem beatae delectus fugit itaque laboriosam modi provident, sit veritatis voluptate!</p>
+                            <a href="#" class="btn">get in touch</a>
+                </div>
+
+        </section>
+
 <!--===JS(FEATURE-SECTION)--------------------------------------------------------------------------------------------->
 
         <script type="text/javascript">
