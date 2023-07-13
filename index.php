@@ -38,7 +38,7 @@
             <a href="#" class="header-logo"><img src="Images/Logo_3.png" alt=""></a>
                 <ul class="header-nav">
                     <li><a href="#">home</a></li>
-                    <li><a href="#">about us</a></li>
+                    <li><a href="#about">about us</a></li>
                     <li><a href="#">buy</a></li>
                     <li><a href="#">sell</a></li>
                     <li><a href="#">rent</a></li>
@@ -141,7 +141,7 @@
 
 <!--===ABOUT SECTION--------------------------------------------------------------------------------------------------->
 
-        <section class="about-sec">
+        <section class="about-sec" id="about">
             <div class="about-sec-img">
                 <img src="Images/Logo_3.png" alt=""></div>
 
@@ -153,12 +153,13 @@
                             Animi autem beatae delectus fugit itaque laboriosam modi provident, sit veritatis voluptate!</p>
                             <a href="#" class="btn">get in touch</a>
                 </div>
-
         </section>
 
 
 <!--===SUBSCRIBE SECTION----------------------------------------------------------------------------------------------->
+        <section class="subscribe-sec">
 
+        </section>
 
 
 <!--===JS(FEATURE-SECTION)--------------------------------------------------------------------------------------------->
