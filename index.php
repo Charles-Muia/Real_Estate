@@ -146,7 +146,7 @@
                 <img src="Images/Logo_3.png" alt=""></div>
 
                 <div class="about-sec-text">
-                    <h2>we help you find a place to call home</h2>
+                    <h2>we help you find a place to call home.</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Animi autem beatae delectus fugit itaque laboriosam modi provident, sit veritatis voluptate!
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.

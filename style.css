@@ -234,6 +234,7 @@
 
     .prop-sec {
         padding-top: 0px;
+        margin-bottom: 20px;
     }
 
     .prop-sec h2 {
@@ -335,6 +336,22 @@
     .about-sec-img img {
         width: 100%;
         height: auto;
+    }
+
+    .about-sec-text h2 {
+        font-size: var(--h2-font);
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    .about-sec-text h2 p {
+        font-size: var(--p-font);
+        margin-bottom: 40px;
+        line-height: 25px;
+    }
+
+    .about-sec-text .btn {
+        text-transform: uppercase;
     }
 
 
