@@ -144,7 +144,6 @@
         <section class="about-sec" id="about">
             <div class="about-sec-img">
                 <img src="Images/Logo_3.png" alt=""></div>
-
                 <div class="about-sec-text">
                     <h2>we help you find a place to call home.</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -157,8 +156,17 @@
 
 
 <!--===SUBSCRIBE SECTION----------------------------------------------------------------------------------------------->
-        <section class="subscribe-sec">
 
+        <section class="testimonials-sec" id="testimonials">
+                    <div class="testimonials-sec-title">
+                            <span></span>
+                                <h2>what our clients say</h2>
+                    </div>
+
+                    <div class="testimonials-sec-container">
+                        <div class="testimonials-sec-box"></div>
+
+                    </div>
         </section>
 
 
