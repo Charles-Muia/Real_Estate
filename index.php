@@ -170,25 +170,102 @@
                                     <div class="profile-img">
                                         <img src="Images\Putin.jpg" alt="">
                                     </div>
-
                                             <div class="usr-name">
                                                 <strong>karl magne</strong>
                                                     <span>@karlmagne</span>
                                             </div>
                                 </div>
+                                    <div class="reviews"></div>
+                                        <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star-half'></i>
+                                </div>
+
+                            <div class="testimonials-sec-comments">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis dignissimos eius eos ipsa odit omnis quidem rem veniam.
+                                    Aliquid architecto consectetur dignissimos esse illum iure, odio qui rerum vel?</p>
+                            </div>
 
 
 
+                        </div>
+
+                        <div class="testimonials-sec-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="Images\Picture_Person_3.jpg" alt="">
+                                    </div>
+                                    <div class="usr-name">
+                                        <strong>karl magne</strong>
+                                        <span>@karlmagne</span>
+                                    </div>
+                                </div>
                                 <div class="reviews"></div>
-                                    <i class='bx bxs-star'></i>                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star-half'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+
+                            <div class="testimonials-sec-comments">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis dignissimos eius eos ipsa odit omnis quidem rem veniam.
+                                    Aliquid architecto consectetur dignissimos esse illum iure, odio qui rerum vel?</p>
                             </div>
                         </div>
 
-                    </div>
+                        <div class="testimonials-sec-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="Images\Picture_person_2.jpg" alt="">
+                                    </div>
+                                    <div class="usr-name">
+                                        <strong>karl magne</strong>
+                                        <span>@karlmagne</span>
+                                    </div>
+                                </div>
+                                <div class="reviews"></div>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+
+                            <div class="testimonials-sec-comments">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis dignissimos eius eos ipsa odit omnis quidem rem veniam.
+                                    Aliquid architecto consectetur dignissimos esse illum iure, odio qui rerum vel?</p>
+                            </div>
+                        </div>
+
+                        <div class="testimonials-sec-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="Images\Picture_person.jpg" alt="">
+                                    </div>
+                                    <div class="usr-name">
+                                        <strong>karl magne</strong>
+                                        <span>@karlmagne</span>
+                                    </div>
+                                </div>
+                                <div class="reviews"></div>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+
+                            <div class="testimonials-sec-comments">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis dignissimos eius eos ipsa odit omnis quidem rem veniam.
+                                    Aliquid architecto consectetur dignissimos esse illum iure, odio qui rerum vel?</p>
+                            </div>
+                        </div>
         </section>
 
 
