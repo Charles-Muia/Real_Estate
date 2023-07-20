@@ -168,7 +168,7 @@
                             <div class="box-top">
                                 <div class="profile">
                                     <div class="profile-img">
-                                        <img src="Images\Picture_Person.jpg" alt="">
+                                        <img src="Images\Putin.jpg" alt="">
                                     </div>
 
                                             <div class="usr-name">
