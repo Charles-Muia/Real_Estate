@@ -164,7 +164,29 @@
                     </div>
 
                     <div class="testimonials-sec-container">
-                        <div class="testimonials-sec-box"></div>
+                        <div class="testimonials-sec-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="Images\Picture_Person.jpg" alt="">
+                                    </div>
+
+                                            <div class="usr-name">
+                                                <strong>karl magne</strong>
+                                                    <span>@karlmagne</span>
+                                            </div>
+                                </div>
+
+
+
+                                <div class="reviews"></div>
+                                    <i class='bx bxs-star'></i>                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star-half'></i>
+                            </div>
+                        </div>
 
                     </div>
         </section>
