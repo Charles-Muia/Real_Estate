@@ -277,49 +277,59 @@
                     </div>
                         <div class="accordion-text">
                             <div class="accordion-title">faqs</div>
-                        </div>
+
                             <ul class="faqs-text">
                                 <li>
                                 <div class="faqs-questions-arrow">
                                     <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
-                                        <i class='bx bx-chevron-down'></i>
+                                        <i class='bx bx-chevron-down arrow'></i>
                                 </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto eaque incidunt iusto officia officiis repellat reprehenderit?
+                                            Alias enim, eum maiores natus neque sequi tempora! At deleniti modi recusandae ullam.</p>
                                     <span class="accordion-line"></span>
                                 </li>
 
                                 <li>
                                     <div class="faqs-questions-arrow">
                                         <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
-                                        <i class='bx bx-chevron-down'></i>
+                                        <i class='bx bx-chevron-down arrow'></i>
                                     </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto eaque incidunt iusto officia officiis repellat reprehenderit?
+                                        Alias enim, eum maiores natus neque sequi tempora! At deleniti modi recusandae ullam.</p>
                                     <span class="accordion-line"></span>
                                 </li>
 
                                 <li>
                                     <div class="faqs-questions-arrow">
                                         <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
-                                        <i class='bx bx-chevron-down'></i>
+                                        <i class='bx bx-chevron-down arrow'></i>
                                     </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto eaque incidunt iusto officia officiis repellat reprehenderit?
+                                        Alias enim, eum maiores natus neque sequi tempora! At deleniti modi recusandae ullam.</p>
                                     <span class="accordion-line"></span>
                                 </li>
 
                                 <li>
                                     <div class="faqs-questions-arrow">
                                         <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
-                                        <i class='bx bx-chevron-down'></i>
+                                        <i class='bx bx-chevron-down arrow'></i>
                                     </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto eaque incidunt iusto officia officiis repellat reprehenderit?
+                                        Alias enim, eum maiores natus neque sequi tempora! At deleniti modi recusandae ullam.</p>
                                     <span class="accordion-line"></span>
                                 </li>
 
                                 <li>
                                     <div class="faqs-questions-arrow">
                                         <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
-                                        <i class='bx bx-chevron-down'></i>
+                                        <i class='bx bx-chevron-down arrow'></i>
                                     </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto eaque incidunt iusto officia officiis repellat reprehenderit?
+                                        Alias enim, eum maiores natus neque sequi tempora! At deleniti modi recusandae ullam.</p>
                                     <span class="accordion-line"></span>
                                 </li>
                             </ul>
-
+                        </div>
                 </div>
         </section>
 
@@ -332,5 +342,41 @@
                 header.classList.toggle("sticky", window.scrollY > 80)
             });
         </script>
+
+<!--===JS(ACCORDION-SECTION)------------------------------------------------------------------------------------------->
+
+<!--        <script>-->
+<!--            let li = document.querySelectorAll(".faqs-text li");-->
+<!--            for (var i = 0 < array.length; i++) {-->
+<!--                li[i].addEventListener("click", (e)=> {-->
+<!--                    let clickedLi;-->
+<!--                    if(e.target.classList.contains ("faqs-question-arrow")){-->
+<!--                        clickedLi = e.target.parentElement;-->
+<!--                    } else {-->
+<!--                        clickedLi = e.target.parentElement.parentElement;-->
+<!--                    }-->
+<!--                    clickedLi.classList.toggle("showAnswer");-->
+<!--                });-->
+<!--            }-->
+<!---->
+<!--        </script>-->
+
+        <script>
+            let li = document.querySelectorAll(".faqs-text li");
+            for (var i = 0; i < li.length; i++) {
+                li[i].addEventListener("click", (e)=> {
+                    let clickedLi;
+                    if (e.target.classList.contains("faqs-questions-arrow")) {
+                        clickedLi = e.target.parentElement;
+                    } else {
+                        clickedLi = e.target.parentElement.parentElement;
+                    }
+                    clickedLi.classList.toggle("showAnswer");
+
+                });
+            }
+
+        </script>
+
 </body>
 </html>

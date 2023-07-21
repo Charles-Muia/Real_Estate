@@ -76,6 +76,7 @@
 
     .header-nav a:hover {
             color: var(--main-color3);
+            background: #2b2b2b;
     }
 
     .header-btn {
@@ -507,9 +508,12 @@
         display: flex;
         margin-top: 100px;
         align-items: center;
+        justify-content: space-between;
         background: #202020;
         border-radius: 30px;
         padding: 45px 90px 45px 60px;
+        max-width: 1100px;
+        width: 100%;
     }
 
     .accordion .image-box {
@@ -522,5 +526,100 @@
         width: 100%;
         object-fit: contain;
         border: 1px solid #ffd700;
+        border-radius: 10px;
     }
 
+    .accordion .accordion-text {
+        width: 70%;
+    }
+
+    .accordion .accordion-text .accordion-title {
+        font-size: var(--h2-font);
+        text-transform: uppercase;
+        margin-left: 40px;
+        font-weight: 600;
+    }
+
+    .accordion .accordion-text .faqs-text {
+        margin-top: 30px;
+        height: 230px;
+        overflow-y: auto;
+    }
+
+    .faqs-text::-webkit-scrollbar {
+        display: none;
+    }
+
+    .accordion .accordion-text li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .accordion-text li p {
+        width: 75%;
+        /*color: #595959;*/
+        color: #f5f5f5;
+        /*color: #880808;*/
+        /*font-size: var(--p-font);*/
+        font-weight: 500;
+        margin-left: 35px;
+        display: none;
+    }
+
+    .accordion-text li.showAnswer p {
+        display: block;
+    }
+
+    .accordion .faqs-questions-arrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .accordion-text li .faqs-questions-arrow .arrow {
+        font-size: 20px;
+        color: #f75023;
+        transition: all 0.3s ease;
+    }
+
+    .accordion i {
+        color: #ffd700;
+        font-weight: 600;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .accordion i:Hover {
+        color: var(--bg-color2);
+    }
+
+    .accordion .questions {
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: 500;
+        transition: all 0.4s ease;
+    }
+
+    .accordion-text li:hover .questions,
+    .accordion-text li:hover .faqs-questions-arrow {
+        color: var(--bg-color);
+    }
+
+    .accordion-text li.showAnswer .faqs-questions-arrow .arrow {
+        transform: rotate(-180deg) ;
+    }
+
+    .accordion-text li.showAnswer .faqs-questions-arrow .questions,
+    .accordion-text li.showAnswer .faqs-questions-arrow .arrow {
+        /*color: var(--bg-color2);*/
+        color: #ff8c00;
+    }
+
+    .accordion-text li .accordion-line {
+        display: block;
+        height: 1px;
+        width: 75%;
+        background: #868686;
+        margin: 12px 30px;  /*margin top to bottom, then left to right*/
+        /*background: var(--bg-color);*/
+    }
