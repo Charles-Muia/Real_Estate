@@ -155,7 +155,7 @@
         </section>
 
 
-<!--===SUBSCRIBE SECTION----------------------------------------------------------------------------------------------->
+<!--===TESTIMONIALS SECTION-------------------------------------------------------------------------------------------->
 
         <section class="testimonials-sec" id="testimonials">
                     <div class="testimonials-sec-title">
@@ -266,6 +266,61 @@
                                     Aliquid architecto consectetur dignissimos esse illum iure, odio qui rerum vel?</p>
                             </div>
                         </div>
+        </section>
+
+<!--===FAQ SECTION----------------------------------------------------------------------------------------------------->
+
+        <section class="faqs-sec">
+                <div class="accordion">
+                    <div class="image-box">
+                        <img src="Images/Q&A.jpg" alt="">
+                    </div>
+                        <div class="accordion-text">
+                            <div class="accordion-title">faqs</div>
+                        </div>
+                            <ul class="faqs-text">
+                                <li>
+                                <div class="faqs-questions-arrow">
+                                    <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
+                                        <i class='bx bx-chevron-down'></i>
+                                </div>
+                                    <span class="accordion-line"></span>
+                                </li>
+
+                                <li>
+                                    <div class="faqs-questions-arrow">
+                                        <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
+                                        <i class='bx bx-chevron-down'></i>
+                                    </div>
+                                    <span class="accordion-line"></span>
+                                </li>
+
+                                <li>
+                                    <div class="faqs-questions-arrow">
+                                        <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
+                                        <i class='bx bx-chevron-down'></i>
+                                    </div>
+                                    <span class="accordion-line"></span>
+                                </li>
+
+                                <li>
+                                    <div class="faqs-questions-arrow">
+                                        <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
+                                        <i class='bx bx-chevron-down'></i>
+                                    </div>
+                                    <span class="accordion-line"></span>
+                                </li>
+
+                                <li>
+                                    <div class="faqs-questions-arrow">
+                                        <span class="questions">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</span>
+                                        <i class='bx bx-chevron-down'></i>
+                                    </div>
+                                    <span class="accordion-line"></span>
+                                </li>
+                            </ul>
+
+                </div>
         </section>
 
 

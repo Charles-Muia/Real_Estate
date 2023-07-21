@@ -491,3 +491,36 @@
     }
 
 
+/*===FAQS SECTION CSS-------------------------------------------------------------------------------------------------*/
+
+    .faqs-sec {
+        color: var(--bg-color);
+        background: #1b1b1b;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .accordion {
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+        background: #202020;
+        border-radius: 30px;
+        padding: 45px 90px 45px 60px;
+    }
+
+    .accordion .image-box {
+        height: 360px;
+        width: 300px;
+    }
+
+    .accordion .image-box img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        border: 1px solid #ffd700;
+    }
+
