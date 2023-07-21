@@ -525,8 +525,10 @@
         height: 100%;
         width: 100%;
         object-fit: contain;
-        border: 1px solid #ffd700;
+        border: 2px solid #ffd700;
         border-radius: 10px;
+        background: var(--bg-color);
+
     }
 
     .accordion .accordion-text {
@@ -541,7 +543,7 @@
     }
 
     .accordion .accordion-text .faqs-text {
-        margin-top: 30px;
+        margin-top: 20px;
         height: 230px;
         overflow-y: auto;
     }
@@ -622,4 +624,44 @@
         background: #868686;
         margin: 12px 30px;  /*margin top to bottom, then left to right*/
         /*background: var(--bg-color);*/
+    }
+
+/*===ACCORDION SECTION MEDIA QUERY CSS-------------------------------------------------------------------------------*/
+
+    @media (max-width: 994px) {
+        .faqs-sec {
+            padding: 40px 20px;
+        }
+        .accordion {
+            padding: 45px 60px 45px 60px;
+            max-width: 100%;
+        }
+        .accordion .image-box {
+            height: 360px;
+            width: 220px;
+        }
+        .accordion .accordion-text {
+            width: 65%;
+        }
+    }
+
+    @media (max-width: 820px) {
+        .accordion {
+          flex-direction: column;
+        }
+        .accordion .accordion-title {
+            margin-top: 40px;
+        }
+        .accordion .image-box {
+            height: 360px;
+            width: 300px;
+            background: var(--bg-color);
+            /*width: 100%;*/
+            border-radius: 25px;
+            /*padding: 30px;*/
+        }
+        .accordion .accordion-text {
+            /*width: 100%;*/
+            margin-top: 30px;
+        }
     }
