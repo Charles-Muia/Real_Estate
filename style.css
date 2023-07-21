@@ -391,8 +391,8 @@
     }
 
     .testimonials-sec-box:hover {
-        transition: ease-in .60s;
         transform: translate(0, -15px);
+        transition: ease-in .60s;
         color: #f75023;
     }
 
@@ -415,6 +415,7 @@
         overflow: hidden;
         margin-right: 10px;
         border: 5px solid #ffd700;
+        border-bottom: 4px solid #000000;
     }
 
     .profile-img img {
@@ -454,5 +455,39 @@
         color: #2b2b2b;
     }
 
+/*===TESTIMONIALS SECTION MEDIA QUERY CSS-----------------------------------------------------------------------------*/
+
+    @media(max-width: 1060px) {
+        .testimonials-sec-box {
+            width: 45%;
+            padding: 10px;
+        }
+    }
+
+    @media(max-width: 790px) {
+        .testimonials-sec-box {
+            width: 100%;
+        }
+
+        .testimonials-sec-title h2 {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media(max-width: 340px) {
+        .box-top {
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .reviews {
+            margin-top: 10px;
+        }
+    }
+
+    ::selection {
+        color: #ffffff;
+        background-color: #868686;
+    }
 
 
