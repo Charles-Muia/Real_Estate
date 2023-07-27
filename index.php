@@ -363,6 +363,16 @@
 
             <div class="footer-sec-content">
                 <h4>quick links</h4>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">buy</a></li>
+                    <li><a href="">sell</a></li>
+                    <li><a href="">rent</a></li>
+                    <li><a href="">contact</a></li>
+            </div>
+
+            <div class="footer-sec-content">
+                <h4>projects</h4>
                     <li><a href="">houses</a></li>
                     <li><a href="">flats</a></li>
                     <li><a href="">rooms</a></li>
@@ -371,26 +381,18 @@
 
             <div class="footer-sec-content">
                 <h4>projects</h4>
-                <li><a href="">houses</a></li>
-                <li><a href="">flats</a></li>
-                <li><a href="">rooms</a></li>
-                <li><a href="">apartments</a></li>
+                    <li><a href="">houses</a></li>
+                    <li><a href="">flats</a></li>
+                    <li><a href="">rooms</a></li>
+                    <li><a href="">apartments</a></li>
             </div>
 
             <div class="footer-sec-content">
                 <h4>projects</h4>
-                <li><a href="">houses</a></li>
-                <li><a href="">flats</a></li>
-                <li><a href="">rooms</a></li>
-                <li><a href="">apartments</a></li>
-            </div>
-
-            <div class="footer-sec-content">
-                <h4>projects</h4>
-                <li><a href="">houses</a></li>
-                <li><a href="">flats</a></li>
-                <li><a href="">rooms</a></li>
-                <li><a href="">apartments</a></li>
+                    <li><a href="">houses</a></li>
+                    <li><a href="">flats</a></li>
+                    <li><a href="">rooms</a></li>
+                    <li><a href="">apartments</a></li>
             </div>
         </section>
 
