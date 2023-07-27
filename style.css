@@ -716,7 +716,7 @@
             justify-content: center;
             flex-direction: column;
             text-align: center;
-            background: url("Images/House_3.jpg") center;
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url("Images/House_3.jpg");
             background-size: cover;
             /*background-position: center;*/
             border-radius: 30px;
@@ -724,7 +724,65 @@
         }
 
         .sub-sec-content p {
-
+            font-size: var(--p-font);
+            line-height: 30px;
+            margin-bottom: 25px;
+            color: var(--bg-color);
         }
 
+        .sub-sec-content .btn {
+            text-transform: uppercase;
+        }
+
+/*===FOOTER SECTION CSS-----------------------------------------------------------------------------------------------*/
+
+    .footer-sec {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+        gap: 2rem;
+        background: var(--bg-color);
+
+    }
+
+    .footer-sec img {
+        width: 100px;
+    }
+
+    .footer-sec-content {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .footer-sec-content h4 {
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+        /*color: #f75023;*/
+        color: #880808;
+        text-transform: capitalize;
+    }
+
+    /*.footer-sec-content h4:hover {*/
+    /*    color:  #f75023;*/
+    /*}*/
+
+    .footer-sec-content li {
+        margin-bottom: 12px;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .footer-sec-content li a {
+        display: block;
+        color: var(--a-color);
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all .50s ease;
+    }
+
+    .footer-sec-content li a:hover {
+        transform: translateY(-4px) translateX(-6px);
+        /*color: var(--bg-color2);*/
+        color: #413839;
+    }
 

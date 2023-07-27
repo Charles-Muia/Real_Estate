@@ -343,7 +343,55 @@
                         Animi, architecto ea explicabo inventore placeat porro sequi veritatis. Ipsa nihil, qui?</p>
                             <a href="#" class="btn">get updates from us</a>
             </div>
+        </section>
 
+
+<!--===FOOTER SECTION-------------------------------------------------------------------------------------------------->
+
+        <section class="footer-sec">
+            <div class="footer-sec-content">
+                <img src="Images/Logo_3.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deserunt dolor?</p>
+                    <div class="footer-sec-icons">
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class='bx bxl-twitter' ></i></a>
+                        <a href=""><i class='bx bxl-youtube' ></i></a>
+                        <a href=""><i class='bx bxl-instagram'></i></a>
+                        <a href=""><i class='bx bxl-linkedin'></i></a>
+                    </div>
+            </div>
+
+            <div class="footer-sec-content">
+                <h4>quick links</h4>
+                    <li><a href="">houses</a></li>
+                    <li><a href="">flats</a></li>
+                    <li><a href="">rooms</a></li>
+                    <li><a href="">apartments</a></li>
+            </div>
+
+            <div class="footer-sec-content">
+                <h4>projects</h4>
+                <li><a href="">houses</a></li>
+                <li><a href="">flats</a></li>
+                <li><a href="">rooms</a></li>
+                <li><a href="">apartments</a></li>
+            </div>
+
+            <div class="footer-sec-content">
+                <h4>projects</h4>
+                <li><a href="">houses</a></li>
+                <li><a href="">flats</a></li>
+                <li><a href="">rooms</a></li>
+                <li><a href="">apartments</a></li>
+            </div>
+
+            <div class="footer-sec-content">
+                <h4>projects</h4>
+                <li><a href="">houses</a></li>
+                <li><a href="">flats</a></li>
+                <li><a href="">rooms</a></li>
+                <li><a href="">apartments</a></li>
+            </div>
         </section>
 
 
