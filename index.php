@@ -341,13 +341,18 @@
                 <h2>we are your preferred real estate agents</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Animi, architecto ea explicabo inventore placeat porro sequi veritatis. Ipsa nihil, qui?</p>
-                            <a href="#" class="btn">get updates from us</a>
+                            <a href="#" class="btn">get in-touch with us</a>
             </div>
         </section>
 
+<!--===CONTACT SECTION------------------------------------------------------------------------------------------------->
+
+        <section class="contact-sec">
+
+        </section>
 
 <!--===FOOTER SECTION-------------------------------------------------------------------------------------------------->
-
+    <footer>
         <section class="footer-sec">
             <div class="footer-sec-content">
                 <img src="Images/Logo_3.png" alt="">
@@ -368,6 +373,7 @@
                     <li><a href="">buy</a></li>
                     <li><a href="">sell</a></li>
                     <li><a href="">rent</a></li>
+                    <li><a href="">FAQ's</a></li>
                     <li><a href="">contact</a></li>
             </div>
 
@@ -395,6 +401,10 @@
                     <li><a href="">apartments</a></li>
             </div>
         </section>
+        <div class="copyright-text">
+            <p> &#169 Copyright 2023 . Charles Muia - Passionate ICT & Digital Professional. <br> All rights reserved. </p>
+        </div>
+    </footer>
 
 
 <!--===JS(FEATURE-SECTION)--------------------------------------------------------------------------------------------->
