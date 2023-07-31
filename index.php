@@ -348,7 +348,65 @@
 <!--===CONTACT SECTION------------------------------------------------------------------------------------------------->
 
         <section class="contact-sec">
+            <div class="container">
+                <div class="contact-infor">
+                    <div>
+                        <h2>contact infor</h2>
+                            <ul class="info">
+                                <li>
+                                    <span><img src="Images/24_Hours.png" alt=""></span>
+                                    <span>35761 limuru road <br>
+                                    +254 Nairobi, KE <br>
+                                    00100 </span>
+                                </li>
+                                <li>
+                                    <span><img src="Images/24_Hours.png" alt=""></span>
+                                    <span>+254 722 000 000</span>
+                                </li>
+                                <li>
+                                    <span><img src="Images/24_Hours.png" alt=""></span>
+                                    <span>aplacehome@gmail.com</span>
+                                </li>
+                            </ul>
+                    </div>
+                                    <ul class="sci">
+                                            <li><a href=""><img src="Images/fb.png" alt="" class="fb"></a></li>
+                                            <li><a href=""><img src="Images/tw.png" alt=""></a></li>
+                                            <li><a href=""><img src="Images/li.png" alt=""></a></li>
+                                            <li><a href=""><img src="Images/fb.png" alt=""></a></li>
+                                            <li><a href=""><img src="Images/fb.png" alt=""></a></li>
+                                    </ul>
 
+                </div>
+                            <div class="contact-form">
+                                <h2>get in touch</h2>
+                                <div class="form-box">
+                                    <div class="input-box w50">
+                                        <input type="text" name="" required>
+                                            <span>first name</span>
+                                    </div>
+                                    <div class="input-box w50">
+                                        <input type="text" name="" required>
+                                        <span>last name</span>
+                                    </div>
+                                    <div class="input-box w50">
+                                        <input type="text" name="" required>
+                                        <span>email address</span>
+                                    </div>
+                                    <div class="input-box w50">
+                                        <input type="text" name="" required>
+                                        <span>mobile number</span>
+                                    </div>
+                                    <div class="input-box w100">
+                                        <textarea name="" required></textarea>
+                                        <span>type your message here</span>
+                                    </div>
+                                    <div class="input-box w100">
+                                        <input type="submit" value="send" class="btn-1">
+                                    </div>
+                                </div>
+                            </div>
+            </div>
         </section>
 
 <!--===FOOTER SECTION-------------------------------------------------------------------------------------------------->
