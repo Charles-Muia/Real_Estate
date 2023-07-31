@@ -476,22 +476,6 @@
 
 <!--===JS(ACCORDION-SECTION)------------------------------------------------------------------------------------------->
 
-<!--        <script>-->
-<!--            let li = document.querySelectorAll(".faqs-text li");-->
-<!--            for (var i = 0 < array.length; i++) {-->
-<!--                li[i].addEventListener("click", (e)=> {-->
-<!--                    let clickedLi;-->
-<!--                    if(e.target.classList.contains ("faqs-question-arrow")){-->
-<!--                        clickedLi = e.target.parentElement;-->
-<!--                    } else {-->
-<!--                        clickedLi = e.target.parentElement.parentElement;-->
-<!--                    }-->
-<!--                    clickedLi.classList.toggle("showAnswer");-->
-<!--                });-->
-<!--            }-->
-<!---->
-<!--        </script>-->
-
         <script>
             let li = document.querySelectorAll(".faqs-text li");
             for (var i = 0; i < li.length; i++) {
@@ -506,6 +490,24 @@
 
                 });
             }
+
+        </script>
+
+<!--===JS(TOGGLE-MENU-SECTION)----------------------------------------------------------------------------------------->
+
+        <script>
+            let menu = document.querySelector('#menu-icon');
+            let navbar = document.querySelector(('.header-nav');
+
+            menu.onclick = () => {
+                menu.classList.toggle('bx-x');
+                navbar.classList.toggle('open')
+            };
+
+            window.onscroll = () => {
+                menu.classList.remove('bx-x');
+                navbar.classList.remove('open')
+            };
 
         </script>
 
