@@ -759,6 +759,7 @@
         height: 100%;
         /*background: #c5c6c7;*/
         background: #1b1b1b;
+
     }
 
     .contact-sec .container {
@@ -1000,6 +1001,7 @@
         /*transform: translateY(-4px) translateX(-6px);*/
         /*color: var(--bg-color2);*/
         color: #413839;
+        font-weight: 600;
     }
 
     .footer-sec-content p {
@@ -1034,3 +1036,123 @@
         background: var(--bg-color);
         color: #24262b;
     }
+
+/*===MEDIA QUERY CSS--------------------------------------------------------------------------------------------------*/
+        @media (max-width: 1790px) {
+            header {
+                padding: 18px 6%
+            }
+
+            section {
+                padding: 70px 6% 60px;
+            }
+
+            header.sticky {
+                padding: 7px 6%;
+            }
+
+            .feat-sec {
+                padding: 40px 6% 30px;
+            }
+
+            .feat-sec h2 {
+                margin-top: 10%;
+                margin-left: 70px;
+            }
+        }
+
+        @media (max-width: 1425px) {
+            :root{
+                --h1-font: 4.5rem;
+                --h2-font: 2.5rem;
+                --p-font: 1rem;
+            }
+
+            .hero-img {
+                width: 540px;
+                /*height: 540px;*/
+            }
+
+            .hero-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            header {
+                padding: 15px 5%;
+            }
+
+            section {
+                padding: 70px 5% 60px;
+            }
+
+            header.sticky {
+                padding: 7px 5%;
+            }
+
+            .feat-sec {
+                padding: 40px 5% 30px;
+            }
+
+            .feat-sec h2 {
+                margin-top: 5%;
+            }
+        }
+
+        @media (max-width: 1170px) {
+
+            :root{
+                --h1-font: 4rem;
+                --h2-font: 2rem;
+                --p-font: 1rem;
+            }
+
+            #menu-icon {
+                display: block;
+            }
+
+            .header-nav {
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 270px;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                /*background: #101821;*/
+                background: #202020;
+                padding: 20px 15px;
+                gap: 0.5rem;
+                text-align: left;
+                transition: all .50s ease;
+            }
+
+            .header-nav a {
+                display: block;
+                font-size: 20px;
+                padding: 20px;
+                color: var(--bg-color);
+            }
+
+            .header-nav .open {
+                right: 0;
+            }
+
+            .hero-section {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                height: 120vh;
+            }
+
+            .hero-text {
+                order: 2;
+                width: 100%;
+                max-width: 900px;
+            }
+
+            .feat-sec {
+                display: block;
+                flex-direction: column;
+            }
+        }
