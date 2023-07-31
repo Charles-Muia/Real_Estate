@@ -48,6 +48,7 @@
                     <div class="header-btn">
                         <a href="#" class="header-btn-1">blog</a>
                         <a href="#" class="header-btn-2">faqs</a>
+
                         <div class="bx bx-menu" id="menu-icon"></div>
                     </div>
         </header>
@@ -497,7 +498,7 @@
 
         <script>
             let menu = document.querySelector('#menu-icon');
-            let navbar = document.querySelector(('.header-nav');
+            let navbar = document.querySelector('.header-nav');
 
             menu.onclick = () => {
                 menu.classList.toggle('bx-x');
