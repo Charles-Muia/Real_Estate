@@ -340,7 +340,7 @@
         <section class="sub-sec">
             <div class="sub-sec-content">
                 <h2>we are your preferred real estate agents</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <p>Our business is making sure that you have a place to call home. consectetur adipisicing elit.
                         Animi, architecto ea explicabo inventore placeat porro sequi veritatis. Ipsa nihil, qui?</p>
                             <a href="#" class="btn">get in-touch with us</a>
             </div>
@@ -411,6 +411,7 @@
         </section>
 
 <!--===FOOTER SECTION-------------------------------------------------------------------------------------------------->
+
     <footer>
         <section class="footer-sec">
             <div class="footer-sec-content">
@@ -465,7 +466,6 @@
         </div>
     </footer>
 
-
 <!--===JS(FEATURE-SECTION)--------------------------------------------------------------------------------------------->
 
         <script type="text/javascript">
@@ -509,7 +509,6 @@
                 menu.classList.remove('bx-x');
                 navbar.classList.remove('open')
             };
-
         </script>
 
 </body>
