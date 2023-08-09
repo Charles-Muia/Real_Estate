@@ -42,7 +42,7 @@
                     <li><a href="#">buy</a></li>
                     <li><a href="#">sell</a></li>
                     <li><a href="#">rent</a></li>
-                    <li><a href="#">contact us</a></li>
+                    <li><a href="#contact">contact us</a></li>
                 </ul>
 
                     <div class="header-btn">
@@ -348,7 +348,7 @@
 
 <!--===CONTACT SECTION------------------------------------------------------------------------------------------------->
 
-        <section class="contact-sec">
+        <section class="contact-sec" id="contact">
             <div class="container">
                 <div class="contact-infor">
                     <div>
