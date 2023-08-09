@@ -1025,8 +1025,10 @@
     }
 
     .footer-sec-icons a:hover {
-        color: #880808;
+        color: var(--text-color);
+        background: #f75023;
         transform: translateY(-3px);
+        border: 1px solid #880808;
     }
 
     .copyright-text {
@@ -1190,6 +1192,4 @@
                 gap: 15px;
                 height: 110vh;
             }
-
-
         }
