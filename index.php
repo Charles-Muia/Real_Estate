@@ -423,6 +423,8 @@
                         <a href=""><i class='bx bxl-youtube' ></i></a>
                         <a href=""><i class='bx bxl-instagram'></i></a>
                         <a href=""><i class='bx bxl-linkedin'></i></a>
+                        <a href=""><i class='bx bxl-github'></i></a>
+
                     </div>
             </div>
 
